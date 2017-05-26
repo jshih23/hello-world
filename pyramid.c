@@ -2,11 +2,13 @@
 int main(int argc, char *argv[])
 {
     int i, j, rows;
-    if (argc > 1){
-        fprintf(stderr, "Invalid Arguments\n", );
+    if (argc > 2 || argc <= 1){
+        fprintf(stderr, "Invalid Arguments\n");
     }
     else{
-        rows = argv[1]; 
+        //fprintf(stderr, "%c\n", argv[i]);
+        rows = atoi(argv[1]);
+        printf("%d\n", rows);
 
     //printf("Enter number of rows: ");
     //scanf("%d",&rows);
