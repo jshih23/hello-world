@@ -1,0 +1,5 @@
+/users/shih/workspace/gitTest/hw/test1.txt
+/users/shih/workspace/gitTest/hw/test2.txt
+/users/shih/workspace/gitTest/hw/test3.txt
+/users/shih/workspace/gitTest/hw/hello.c
+/users/shih/workspace/gitTest/hw/makefile
