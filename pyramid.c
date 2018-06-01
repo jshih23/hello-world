@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
         {
             for(j=1; j<=i; ++j)
             {
-                printf("*s ");
+                printf("* ");
             }
             printf("\n");
         }
