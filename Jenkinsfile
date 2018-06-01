@@ -11,6 +11,7 @@ pipeline {
         }
         stage('Stage 2'){
         	steps {
+                sh './pyramid 5'
         		echo 'made it to stage2'
         	}
         }
