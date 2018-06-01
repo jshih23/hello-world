@@ -1,4 +1,4 @@
-#/usr/bin/env groovy
+#!/usr/bin/env groovy
 
 pipeline {
     agent any
@@ -6,11 +6,12 @@ pipeline {
         stage('Stage 1'){
             steps {
             	sh 'make'
+                echo 'made it to stage1'
             }
         }
         stage('Stage 2'){
         	steps {
-        		echo 'Hello World!'
+        		echo 'made it to stage2'
         	}
         }
     }
